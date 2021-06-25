@@ -1,0 +1,1 @@
+exports.resolveExtensions = ['js', 'json'];

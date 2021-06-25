@@ -1,0 +1,36 @@
+{
+  "name": "webpack-mini",
+  "version": "1.0.0",
+  "description": "手写乞丐版webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senfish/webpack-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senfish/webpack-mini/issues"
+  },
+  "homepage": "https://github.com/senfish/webpack-mini#readme",
+  "devDependencies": {
+    "@babel/generator": "^7.14.5",
+    "@babel/parser": "^7.14.7",
+    "@babel/traverse": "^7.14.7",
+    "babel-types": "^6.26.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.3"
+  }
+}
